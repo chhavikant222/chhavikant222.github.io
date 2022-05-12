@@ -15,7 +15,7 @@ body {
 h1 {
   font-size: 4rem;
   margin-bottom: 0;
-  color: green;
+  color: rgb(9, 253, 9);
 }
 
 @media(max-width: 460px) {
@@ -25,7 +25,7 @@ h1 {
   }
 }
 
-h2{
+h2 {
   font-size: 3.25rem; 
 }
 
@@ -33,24 +33,24 @@ a {
   color: #477ca7;
 }
 
-a: visited {
+a:visited {
   color: #74638f;
 }
 
-#main{
-  margin: 30px 8px;
+#main {
+  margin: 30px 38px;
   padding: 15px;
   border-radius: 5px;
   background: black;
   }
 
-@margin(max-width: 4600px) {
+@media(max-width: 4600px) {
   #main {
     margin: 0;
   }
 }
 
-img{
+img {
   max-width: 40%;
   display: block;
   height: auto;
@@ -58,47 +58,48 @@ img{
  
 }
 
-#img-div{
+#img-div {
 background: orange;
   padding: 10px;
   margin: 0;
 }
 
-#img-caption{
+#img-caption {
   margin: 15px 0 5px 0;
 }
 
-@media(max-width: 460px){
+@media(max-width: 460px) {
   #img-caption{
     font-size: 1.4rem;
   }
 }
 
-#headline{
+#headline {
   margin: 50px 0;
   text-align: center;
 }
 
-ul{
+ul {
   max-width: 550px;
   margin: 0 auto 50px auto; 
   text-align: left;
   line-height: 1.6;
-  color: green;
+  color: rgb(9, 253, 9);
 }
 
-li{
+li {
   margin: 16px 0;
 }
 
-#paragraph{
-  color: green;
-}
-#headline{
-  color: green;
+#paragraph {
+  color: rgb(9, 253, 9);
 }
 
-blockquote{
+#headline {
+  color: rgb(9, 253, 9);
+}
+
+blockquote {
   font-style: italic;
   line-height: 1.2rem;
   margin: 0 auto 50px auto;
@@ -106,4 +107,8 @@ blockquote{
 
 #position {
   text-align: right;
+}
+
+h3 {
+  text-align: center;
 }
