@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="style.css" />
+ <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+ <title>Technical Doc HTML</title>
+</head>
+<body>
+  <nav id="nav-bar">
+    <header>HTML Documentation</header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">HTML - Introduction</a></li>
+      <li><a class="nav-link" href="#HTML-Basic Tags">HTML - Basic Tags</a></li>
+      <li><a class="nav-link" href="#HTML-Elements">HTML - Elements</a></li>
+      <li><a class="nav-link" href="#HTML-Phrase Tags">HTML - Phrase Tags</a></li>
+      <li><a class="nav-link" href="#HTML-Meta Tags">HTML - Meta Tags</a></li>
+      <li><a class="nav-link" href="#HTML-Attributes">HTML - Attributes</a></li>
+      <li><a class="nav-link" href="#HTML-Formatting">HTML - Formatting</a></li>
+      <li><a class="nav-link" href="#HTML-Images">HTML - Images</a></li>
+      <li><a class="nav-link" href="#HTML-Tables">HTML - Tables</a></li>
+      <li><a class="nav-link" href="#HTML-Email links">HTML - Email links</a></li>
+      <li><a class="nav-link" href="#HTML-Background">HTML - Background</a></li>
+      <li><a class="nav-link" href="#HTML-Frames">HTML - Frames</a></li>
+      <li><a class="nav-link" href="#HTML-Blocks">HTML - Blocks</a></li>
+      <li><a class="nav-link" href="#HTML-Fonts">HTML - Fonts</a></li>
+      <li><a class="nav-link" href="#HTML-Forms">HTML - Forms</a></li>
+      <li><a class="nav-link" href="#Reference">Reference</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <article>
+        <p>
+          HTML stands for Hypertext Markup Language, and it is the most widely used language to write Web Pages.
+        </p>
+        <p>
+          Originally, HTML was developed with the intent of defining the structure of documents like headings, paragraphs, lists, and so forth to facilitate the sharing of scientific information between researchers.
+        </p>
+        <ul>
+          <li>
+            As its name suggests, HTML is a Markup Language which means you use HTML to simply "mark-up" a text document with tags that tell a Web browser how to structure it to display.
+          </li>
+          <li>
+            Hypertext refers to the way in which Web pages (HTML documents) are linked together. Thus, the link available on a webpage is called Hypertext.
+          </li>
+        </ul>
+      </article>
+    </section>
+    <section class="main-section" id="HTML-Basic Tags">
+      <header>HTML - Basic Tags</header>
+      <article>
+       <p>
+        Any document starts with a heading. You can use different sizes for your headings. HTML also has six levels of headings. While displaying any heading, browser adds one line before and one line after that heading.
+      </p>
+      <h1>&lt;h1&gt;This is heading 1&lt;/h1&gt;</h1>
+      <h2>&lt;h2&gt;This is heading 2&lt;/h2&gt;</h2>
+      <h3>&lt;h3&gt;This is heading 3&lt;/h3&gt;</h3>
+      <h4>&lt;h4&gt;This is heading 4&lt;/h4&gt;</h4>
+      <h5>&lt;h5&gt;This is heading 5&lt;/h5&gt;</h5>
+      <h6>&lt;h6&gt;This is heading 6&lt;/h6&gt;</h6>
+    </article>
+  </section>
+  <section class="main-section" id="HTML-Elements">
+    <header>HTML - Elements</header>
+    <article>
+     <p>
+      An HTML element is defined by a starting tag. If the element contains other content, it ends with a closing tag, where the element name is preceded by a forward slash.
+    </p>
+    <p>
+      Either we are talking about an opening or closing then we call them tag otherwise complete set of tags is called an element.
+    </p>
+    <p>
+      It is very much allowed to keep one HTML element inside another HTML element −
+    </p>
+  </article>
+</section>
+<section class="main-section" id="HTML-Phrase Tags">
+  <header>HTML - Phrase Tags</header>
+  <article>
+   <p>
+    The phrase tags have been desicolgned for specific purposes, though they are displayed in a similar way as other basic tags like &lt;b&gt;, &lt;i&gt;, &lt;pre&gt;, and &lt;tt&gt; tags, you have seen in previous chapter. This chapter will take you through all the important phrase tags, so let's start seeing them one by one.
+  </p>
+  <code>&lt;p&gt;The following word uses an &lt;em&gt;emphasized&lt;/em&gt; typeface.&lt;/p&gt;
+  </code>
+</article>
+</section>
+<section class="main-section" id="HTML-Meta Tags">
+  <header>HTML - Meta Tags</header>
+  <article>
+    <p>HTML lets you specify metadata - additional important information about a document in a variety of ways. The META elements can be used to include name/value pairs describing properties of the HTML document, such as author, expiry date, a list of keywords, document author etc.
+    </p>
+    <p>The 'meta' tag is used to provide such additional information. This tag is an empty element and so does not have a closing tag but it carries information within its attributes.
+    </p>
+    <p>You can add metadata to your web pages by placing 'meta' tags inside the header of the document which is represented by 'head' tags.
+    </p>
+  </article>
+</section>
+<section class="main-section" id="HTML-Attributes">
+  <header>HTML - Attributes</header>
+  <article>
+    <p>
+      We have seen few HTML tags and their usage like heading tags &lt;h1&gt;, &lt;h2&gt;, paragraph tag 'p' and other tags. We used them so far in their simplest form, but most of the HTML tags can also have attributes, which are extra bits of information.
+    </p>
+    <p>
+      An attribute is used to define the characteristics of an HTML element and is placed inside the element's opening tag. All attributes are made up of two parts − a name and a value
+    </p>
+    <ul>
+      <li>
+        The name is the property you want to set. For example, the paragraph &lt;p&gt; element in the example carries an attribute whose name is align, which you can use to indicate the alignment of paragraph on the page.
+      </li>
+      <li>
+        The value is what you want the value of the property to be set and always put within quotations. The below example shows three possible values of align attribute: left, center and right.
+      </li>
+    </article>
+  </section>
+  <section class="main-section" id="HTML-Formatting"> 
+    <header>HTML - Formatting</header>
+    <article>
+      <p>
+        f you use a word processor, you must be familiar with the ability to make text bold, italicized, or underlined; these are just three of the ten options available to indicate how text can appear in HTML and XHTML.
+      </p>
+      <p>
+        Anything that appears within &lt;b&gt; element, is displayed in bold.
+      </p>
+      <p>
+        Anything that appears within &lt;i&gt; element is displayed in italicized.
+      </p>
+      <p>
+        Anything that appears within &lt;u&gt; element, is displayed with underline.
+      </p>
+      <p>
+        Anything that appears within &lt;strike&gt; element is displayed with strikethrough, which is a thin line through the text.
+      </p>
+      <code> &lt;p&gt;The following word uses a &lt;b&gt;bold&lt;/b&gt; typeface.&lt;/p&gt;<br>&lt;p&gt;The following word uses an &lt;i&gt;italicized&lt;/i&gt; typeface.&lt;/p&gt;
+      </code>
+    </article>
+  </section>
+  <section class="main-section" id="HTML-Images">
+    <header>HTML - Images</header>
+    <article>
+      <p>
+        Images are very important to beautify as well as to depict many complex concepts in simple way on your web page. This tutorial will take you through simple steps to use images in your web pages.
+      </p>
+      <p>
+        You can insert any image in your web page by using &lt;img&gt; tag. 
+      </p>
+      <p>
+        The &lt;img&gt; tag is an empty tag, which means that, it can contain only list of attributes and it has no closing tag.
+      </p>
+      <p>
+        Usually we keep all the images in a separate directory. So let's keep HTML file test.htm in our home directory and create a subdirectory images inside the home directory where we will keep our image test.png.
+      </p>
+      <p>
+        You can set image width and height based on your requirement using width and height attributes. You can specify width and height of the image in terms of either pixels or percentage of its actual size.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="HTML-Tables">
+    <header>HTML - Tables</header>
+    <article>
+      <p>
+        The HTML tables allow web authors to arrange data like text, images, links, other tables, etc. into rows and columns of cells.
+      </p>
+      <p>
+        The HTML tables are created using the 'table' tag in which the &lt;tr&gt; tag is used to create table rows and &lt;td&gt; tag is used to create data cells. The elements under 'td' are regular and left aligned by default.
+      </p>
+      <p>
+        Table heading can be defined using &lt;th&gt; tag. This tag will be put to replace &lt;td&gt; tag, which is used to represent actual data cell. Normally you will put your top row as table heading as shown below, otherwise you can use &lt;th&gt element in any row. Headings, which are defined in &lt;th&gt; tag are centered and bold by default.
+      </p>
+      <p>
+        There are two attributes called cellpadding and cellspacing which you will use to adjust the white space in your table cells. The cellspacing attribute defines space between table cells, while cellpadding represents the distance between cell borders and the content within a cell.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="HTML-Email links">
+    <header>HTML - Email links</header>
+    <article>
+      <p>
+        It is not difficult to put an HTML email link on your webpage but it can cause unnecessary spamming problem for your email account. There are people, who can run programs to harvest these types of emails and later use them for spamming in various ways.
+      </p>
+      <p>
+        You can have another option to facilitate people to send you emails. One option could be to use HTML forms to collect user data and then use PHP or CGI script to send an email.
+      </p>
+      <p>
+        HTML &lt;a&gt; tag provides you option to specify an email address to send an email. While using &lt;a&gt; tag as an email tag, you will use mailto: email address along with href attribute. Following is the syntax of using mailto instead of using http.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="HTML-Background">
+    <header>HTML - Background</header>
+    <article>
+      <p>
+        By default, your webpage background is white in color. You may not like it, but no worries. HTML provides you following two good ways to decorate your webpage background.
+      </p>
+      <ul>
+        <li>
+          HTML Background with Colors
+        </li>
+        <li>
+          HTML Background with Images
+        </li>
+      </ul>
+      <p>
+        The bgcolor attribute is used to control the background of an HTML element, specifically page body and table backgrounds.
+      </p>
+      <p>
+        The background attribute can also be used to control the background of an HTML element, specifically page body and table backgrounds. You can specify an image to set background of your HTML page or table.
+      </p>
+      <code>&lt;table bgcolor = "lime" &gt;
+       &lt;table bgcolor = "#f1f1f1" &gt;
+       &lt;table bgcolor = "rgb(0,0,120)" &gt;
+     </code>
+   </article>
+ </section>
+ <section class="main-section" id="HTML-Frames">
+  <header>HTML - Frames</header>
+  <article>
+    <p>
+      HTML frames are used to divide your browser window into multiple sections where each section can load a separate HTML document. A collection of frames in the browser window is known as a frameset. The window is divided into frames in a similar way the tables are organized: into rows and columns.
+    </p>
+    <p>
+      There are few drawbacks with using frames, so it's never recommended to use frames in your webpages −
+    </p>
+    <ul>
+      <li>
+       Some smaller devices cannot cope with frames often because their screen is not big enough to be divided up.
+     </li>
+     <li>
+       Sometimes your page will be displayed differently on different computers due to different screen resolution.
+     </li>
+     <li>
+       The browser's back button might not work as the user hopes.
+     </li>
+     <code>&lt;frameset rows = "10%,80%,10%"&gt;
+      &lt;frame name = "top" src = "/html/top_frame.htm" /&gt;
+      &lt;frame name = "main" src = "/html/main_frame.htm" /&gt;
+      &lt;frame name = "bottom" src = "/html/bottom_frame.htm" /&gt;
+      &lt;noframes&gt;
+      &lt;p&gt;Lorem Ipsum&lt;/p&gt;
+      &lt;/noframes&gt;
+      &lt;/frameset&gt;
+    </code>
+  </article>
+</section>
+<section class="main-section" id="HTML-Blocks">
+ <header>HTML - Blocks</header>
+ <article>  
+   <p>
+     All the HTML elements can be categorized into two categories (a) Block Level Elements (b)Inline Elements.
+   </p>
+   <p>
+     Block Elements
+
+     Block elements appear on the screen as if they have a line break before and after them. For example, the &lt;p&gt;, &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt, &lt;h5&gt;, &lt;h6&gt;, &lt;ul&gt;,etc. elements are all block level elements. They all start on their own new line, and anything that follows them appears on its own new line.      
+   </p>
+   <p>  
+    Inline elements, on the other hand, can appear within sentences and do not have to appear on a new line of their own. The &lt;b&gt;, &lt;i&gt;, &lt;u&gt;, &lt;em&gt;, &lt;strong&gt;, &lt;sup&gt;, &lt;sub&gt;, &lt;big&gt;,etc. elements are all inline elements.
+  </p> 
+</article>
+</section>
+<section class="main-section" id="HTML-Fonts">
+  <header>HTML - Fonts</header>
+  <article>
+    <p>
+      Fonts play a very important role in making a website more user friendly and increasing content readability. Font face and color depends entirely on the computer and browser that is being used to view your page but you can use HTML &lt;font&gt; tag to add style, size, and color to the text on your website. You can use a &lt;basefont&gt; tag to set all of your text to the same size, face, and color.
+    </p>
+    <p>
+      The font tag is having three attributes called size, color, and face to customize your fonts. To change any of the font attributes at any time within your webpage, simply use the &lt;font&gt; tag. The text that follows will remain changed until you close with the &lt;/font&gt; tag. You can change one or all of the font attributes within one &lt;font&gt; tag.
+    </p>
+    <p>
+      Note −The font and basefont tags are deprecated and it is supposed to be removed in a future version of HTML. So they should not be used rather, it's suggested to use CSS styles to manipulate your fonts. But still for learning purpose, this chapter will explain font and basefont tags in detail.
+    </p>
+    <code>&lt;font size = "1"&gt;Font size = "1"&lt;/font&gt;
+      &lt;font size = "2"&gt;Font size = "2"&lt;/font&gt;
+      &lt;font size = "5"&gt;Font size = "5"&lt;/font&gt;
+    </code>
+  </article>
+</section>
+<section class="main-section" id="HTML-Forms">
+  <header>HTML - Forms</header>
+  <article>
+    <p>
+      HTML Forms are required, when you want to collect some data from the site visitor. For example, during user registration you would like to collect information such as name, email address, credit card, etc
+    </p>
+    <p>
+      A form will take input from the site visitor and then will post it to a back-end application such as CGI, ASP Script or PHP script etc. The back-end application will perform required processing on the passed data based on defined business logic inside the application.
+    </p>
+    <p>
+      There are various form elements available like text fields, textarea fields, drop-down menus, radio buttons, checkboxes, etc.
+    </p>
+    <code>&lt;form action="/action_page.php" method="get"&gt;
+      &lt;label for="fname"&gt;First name:&lt;/label&gt;
+      &lt;input type="text" id="fname" name="fname"&gt;
+      &lt;/form&gt;
+    </code>
+  </article>
+</section> 
+<section class="main-section" id="Reference">
+  <header>Reference</header>
+  <article>
+    <ul>
+      <li>
+        All the documentation in this page is taken from
+        <a href="https://www.tutorialspoint.com/html/html_forms.htm" target="_blank"> MDN </a>
+      </li>
+    </ul>
+  </article>
+</section>
+</main>
+</body>
+</html> 
